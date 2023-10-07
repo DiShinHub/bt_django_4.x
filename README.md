@@ -1,4 +1,4 @@
-<h1>IDNA RESTful API </h1>
+<h1>BT DJANGO RESTful API </h1>
 
 <h2>인스톨</h2>
 <pre><code>
@@ -13,6 +13,7 @@ python manage.py runserver
 <h2>마이그레이션</h2>
 <pre><code>
 python manage.py makemigrations
+python manage.py migrate
 </pre></code>
 
 <h2>폴더 구조</h2>
@@ -44,8 +45,12 @@ python manage.py makemigrations
 * views - 서비스 뷰
 
 <h3>파이썬 버전</h3>
-Python 3.6.7
+Python 3.12^
+
+<h3>swagger url</h3>
+http://127.0.0.1:8000/swagger/
 
 <h3>참고자료</h3>
 https://wisdom-990629.tistory.com/
 https://docs.djangoproject.com/en/3.1/
+https://velog.io/@lu_at_log/drf-yasg-and-swagger
